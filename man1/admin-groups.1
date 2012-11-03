@@ -1,0 +1,26 @@
+.\" generated with Ronn/v0.7.3
+.\" http://github.com/rtomayko/ronn/tree/0.7.3
+.
+.TH "FHC\-ADMIN\-USERS" "1" "August 2012" "" ""
+.
+.SH "NAME"
+\fBfhc\-admin\-users\fR \- Administer FeedHenry Groups
+.
+.SH "SYNOPSIS"
+.
+.nf
+
+fhc groups create <group-id> <group-name> <group-description>
+fhc groups delete <group-id>
+fhc groups read <group-id>
+fhc groups update <group-id> <group-name> <group-description>
+fhc groups addusers <group-id> <user-email>*
+fhc groups removeusers <group-id> <user-email>*
+fhc groups addapps <group-id> <app-id>*
+fhc groups removeapps <group-id> <app-id>*
+
+.
+.fi
+.
+.SH "DESCRIPTION"
+This command allows you to Administer Groups on the FeedHenry Platform\.
